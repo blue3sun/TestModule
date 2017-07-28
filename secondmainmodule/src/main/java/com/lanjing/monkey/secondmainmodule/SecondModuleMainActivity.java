@@ -14,7 +14,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class SecondModuleMianActivity extends AppCompatActivity implements View.OnClickListener{
+public class SecondModuleMainActivity extends AppCompatActivity implements View.OnClickListener{
 
     @BindView(R.id.btn_one)Button btnOne;
 
