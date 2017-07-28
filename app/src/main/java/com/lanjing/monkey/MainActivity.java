@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mTvTitle.setText("原始的主module的第一个界面");
         mTvTitle.setOnClickListener(this);
         mBtnOne.setOnClickListener(this);
+        findViewById(R.id.btn_one).setOnClickListener(this);
     }
 
     @Override
